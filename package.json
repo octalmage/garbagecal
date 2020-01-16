@@ -4,8 +4,8 @@
   "description": "1 minute before a meeting garbagecal will minimize all windows and open the Zoom.us link for the meeting.",
   "main": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/octalmage/garbagecal.git"
+    "type": "git",
+    "url": "https://github.com/octalmage/garbagecal.git"
   },
   "dependencies": {
     "applescript": "^1.0.0",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "semantic-release --publish"
+    "release": "semantic-release --no-ci"
   },
   "author": "Jason Stallings <jason@stallin.gs>",
   "license": "MIT",
