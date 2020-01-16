@@ -1,0 +1,28 @@
+{
+  "name": "garbagecal",
+  "version": "1.0.0",
+  "description": "1 minute before a meeting garbagecal will minimize all windows and open the Zoom.us link for the meeting.",
+  "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/octalmage/garbagecal.git"
+  },
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "node-ical": "^0.10.0",
+    "node-cron": "^2.0.3",
+    "openurl": "^1.1.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^16.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "semantic-release --publish"
+  },
+  "author": "Jason Stallings <jason@stallin.gs>",
+  "license": "MIT",
+  "bin": {
+    "garbagecal": "./index.js"
+  }
+}
