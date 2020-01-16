@@ -1,6 +1,6 @@
 {
   "name": "garbagecal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "1 minute before a meeting garbagecal will minimize all windows and open the Zoom.us link for the meeting.",
   "main": "index.js",
   "repository": {
